@@ -1,7 +1,6 @@
 # vadim-ember-svg
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The main work is in a component <b>swg-draw</b>.
 
 ## Prerequisites
 
