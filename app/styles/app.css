@@ -1,7 +1,11 @@
 .mono_text {
     font-family:Monospace;
+    font-size:14px;
     text-align:center;
 }
-#a {
-    text-decoration: underline;
+
+.line {
+    fill:none;
+    stroke:black;
+    stroke-width:3;
 }

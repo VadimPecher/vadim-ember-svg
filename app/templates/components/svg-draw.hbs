@@ -1,10 +1,10 @@
-<h3 class="mono_text">Draw what you want, 
+<div class="mono_text">Draw what you want, 
     <a href="#" {{action "undo"}}>undo</a> or 
     <a href="#" {{action "clear"}}>clear</a>
-</h3>
+</div>
 
 <svg id="svg1" width="100%" height="500">
     {{#each lines as |obj|}}
-        <polyline points="{{obj}}" style="fill:none;stroke:black;stroke-width:3" />
+        <polyline points="{{obj}}" class="line" pointer-events="none"/>
     {{/each}}
 </svg>
